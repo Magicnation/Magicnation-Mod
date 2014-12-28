@@ -28,7 +28,7 @@ public class oreGemStoneBlood extends Block {
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconRegister)
 	{
-	    Overworld = iconRegister.registerIcon("magicnation:oreGemStoneBlood_ore");
+		String Overworld = iconRegister.registerIcon("magicnation:oreGemStoneBlood_ore");
 		End = iconRegister.registerIcon("magicnation:oreGemStoneBlood_end");
 		Nether = iconRegister.registerIcon("magicnation:oreGemStoneBlood_nether");
 	}
