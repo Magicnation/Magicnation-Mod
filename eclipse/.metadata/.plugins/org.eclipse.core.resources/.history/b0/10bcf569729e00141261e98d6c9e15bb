@@ -41,7 +41,7 @@ public class itemGemStoneBloodSword extends ItemSword{
         }
 
         if(!player.worldObj.isRemote){
-        itemStack.setStackDisplayName("Blood Gem Sword" + "(" + itemStack.stackTagCompound.getString("Type") + ")");
+        Minecraft.getMinecraft().thePlayer.sendChatMessage(itemStack.stackTagCompound.getString("Type"));
         }
         
         return itemStack;        

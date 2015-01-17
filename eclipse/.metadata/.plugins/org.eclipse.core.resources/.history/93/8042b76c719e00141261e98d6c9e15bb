@@ -43,7 +43,7 @@ public class MagicnationGenerator implements IWorldGenerator{
 	this.addOreSpawn(MABlocks.oreGemStoneBlood,Blocks.stone,  world, random, x, z, 16, 16, 2 + random.nextInt(3), 5, 17, 73);
 	
 	
-	//WorldGenStarterStructure.box(world,0,80,0,3,10,5,Blocks.stonebrick,Blocks.tnt,Blocks.bookshelf);
+	WorldGenStarterStructure.box(world,0,80,0,3,10,5,Blocks.stonebrick,Blocks.tnt,Blocks.bookshelf);
 	
 	}
 	 
