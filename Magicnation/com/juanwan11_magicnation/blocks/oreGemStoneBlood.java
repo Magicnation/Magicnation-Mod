@@ -19,10 +19,6 @@ import net.minecraft.world.World;
 
 public class oreGemStoneBlood extends Block {
 
-	public static IIcon Overworld;
-	public static IIcon Nether;
-	public static IIcon End;
-	
 	public oreGemStoneBlood() {
 		super(Material.rock);
 
