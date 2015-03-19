@@ -1,8 +1,8 @@
-[19:58:26] [main/INFO]: Setting user: juanwan11
-[19:58:28] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:58:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[19:58:37] [Sound Library Loader/INFO]: Sound engine started
-[19:58:40] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+[18:22:48] [main/INFO]: Setting user: juanwan11
+[18:22:50] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:23:01] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[18:23:02] [Sound Library Loader/INFO]: Sound engine started
+[18:23:18] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -22,7 +22,7 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGe
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:58:40] [Client thread/ERROR]: Using missing texture, unable to load magicnation:textures/blocks/oreGemStoneBlood_ore.png
+[18:23:18] [Client thread/ERROR]: Using missing texture, unable to load magicnation:textures/blocks/oreGemStoneBlood_ore.png
 java.io.FileNotFoundException: magicnation:textures/blocks/oreGemStoneBlood_ore.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -41,8 +41,8 @@ java.io.FileNotFoundException: magicnation:textures/blocks/oreGemStoneBlood_ore.
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:58:40] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[19:58:40] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+[18:23:19] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[18:23:19] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -62,7 +62,7 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStone
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:58:40] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemPyramidGen.png
+[18:23:19] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemPyramidGen.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemPyramidGen.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -82,9 +82,9 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemPyramidG
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:58:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:58:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
-[19:58:40] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
+[18:23:19] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:23:19] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Magicnation
+[18:23:19] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGemStoneBlood.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -107,7 +107,7 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/blocks/oreNetherGe
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:58:40] [Client thread/ERROR]: Using missing texture, unable to load magicnation:textures/blocks/oreGemStoneBlood_ore.png
+[18:23:19] [Client thread/ERROR]: Using missing texture, unable to load magicnation:textures/blocks/oreGemStoneBlood_ore.png
 java.io.FileNotFoundException: magicnation:textures/blocks/oreGemStoneBlood_ore.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
@@ -129,8 +129,8 @@ java.io.FileNotFoundException: magicnation:textures/blocks/oreGemStoneBlood_ore.
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:58:41] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
-[19:58:41] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
+[18:23:20] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[18:23:20] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStoneBloodSword.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -153,7 +153,7 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemGemStone
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:58:41] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemPyramidGen.png
+[18:23:20] [Client thread/ERROR]: Using missing texture, unable to load juanwan11_magicnation:textures/items/itemPyramidGen.png
 java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemPyramidGen.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -176,29 +176,59 @@ java.io.FileNotFoundException: juanwan11_magicnation:textures/items/itemPyramidG
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
 	at GradleStart.main(GradleStart.java:45) [start/:?]
-[19:58:41] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:58:42] [Sound Library Loader/INFO]: Sound engine started
-[19:59:03] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:59:03] [Server thread/INFO]: Generating keypair
-[19:59:03] [Server thread/INFO]: Preparing start region for level 0
-[19:59:04] [Server thread/INFO]: Preparing spawn area: 37%
-[19:59:05] [Server thread/INFO]: Changing view distance to 8, from 10
-[19:59:06] [Server thread/INFO]: juanwan11[local:E:25f3af82] logged in with entity id 234 at (22.028279152431946, 81.0, 19.971434270130484)
-[19:59:06] [Server thread/INFO]: juanwan11 joined the game
-[19:59:24] [Server thread/INFO]: <juanwan11> no
-[19:59:24] [Client thread/INFO]: [CHAT] <juanwan11> no
-[19:59:28] [Server thread/INFO]: <juanwan11> this is not cool for the name
-[19:59:28] [Client thread/INFO]: [CHAT] <juanwan11> this is not cool for the name
-[19:59:32] [Server thread/INFO]: <juanwan11> i know
-[19:59:32] [Client thread/INFO]: [CHAT] <juanwan11> i know
-[19:59:33] [Server thread/INFO]: Saving and pausing game...
-[19:59:33] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
-[19:59:33] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
-[19:59:33] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
-[19:59:34] [Server thread/INFO]: Stopping server
-[19:59:34] [Server thread/INFO]: Saving players
-[19:59:34] [Server thread/INFO]: Saving worlds
-[19:59:34] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
-[19:59:34] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
-[19:59:34] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
-[19:59:36] [Client thread/INFO]: Stopping!
+[18:23:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[18:23:21] [Sound Library Loader/INFO]: Sound engine started
+[18:23:32] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[18:23:32] [Server thread/INFO]: Generating keypair
+[18:23:32] [Server thread/INFO]: Preparing start region for level 0
+[18:23:33] [Server thread/INFO]: Preparing spawn area: 35%
+[18:23:35] [Server thread/INFO]: Changing view distance to 8, from 10
+[18:23:35] [Server thread/INFO]: juanwan11[local:E:6dee22c4] logged in with entity id 337 at (189.0974660720564, 70.0, 190.60713922727751)
+[18:23:35] [Server thread/INFO]: juanwan11 joined the game
+[18:23:37] [Server thread/INFO]: Saving and pausing game...
+[18:23:37] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[18:23:37] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[18:23:37] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[18:23:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2094ms behind, skipping 41 tick(s)
+[18:24:14] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
+[18:24:16] [Server thread/INFO]: [juanwan11: Set own game mode to Creative Mode]
+[18:24:16] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[18:25:00] [Server thread/INFO]: [juanwan11: Teleported juanwan11 to 0.5,100.5,0.5]
+[18:25:00] [Client thread/INFO]: [CHAT] Teleported juanwan11 to 0.5,100.5,0.5
+[18:28:08] [Server thread/INFO]: Saving and pausing game...
+[18:28:08] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[18:28:08] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[18:28:08] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[18:28:31] [Server thread/INFO]: Saving and pausing game...
+[18:28:31] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[18:28:31] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[18:28:31] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[18:28:50] [Client thread/INFO]: Warning: Clientside chunk ticking took 118 ms
+[18:28:51] [Client thread/INFO]: Warning: Clientside chunk ticking took 150 ms
+[18:28:51] [Client thread/INFO]: Warning: Clientside chunk ticking took 109 ms
+[18:29:10] [Server thread/INFO]: [juanwan11: Teleported juanwan11 to 0.5,100.5,0.5]
+[18:29:10] [Client thread/INFO]: [CHAT] Teleported juanwan11 to 0.5,100.5,0.5
+[18:29:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 20857ms behind, skipping 417 tick(s)
+[18:29:34] [Server thread/INFO]: juanwan11 fell out of the world
+[18:29:34] [Client thread/INFO]: [CHAT] juanwan11 fell out of the world
+[18:29:34] [Client thread/INFO]: [CHAT] Ouch! That looked like it hurt
+[18:29:48] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 37399ms behind, skipping 747 tick(s)
+[18:30:02] [Server thread/INFO]: Saving and pausing game...
+[18:30:02] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[18:30:02] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[18:30:02] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[18:30:28] [Server thread/INFO]: Saving and pausing game...
+[18:30:28] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[18:30:28] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[18:30:28] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[18:30:34] [Server thread/INFO]: Saving and pausing game...
+[18:30:34] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[18:30:34] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[18:30:34] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[18:30:34] [Server thread/INFO]: Stopping server
+[18:30:34] [Server thread/INFO]: Saving players
+[18:30:34] [Server thread/INFO]: Saving worlds
+[18:30:34] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Overworld
+[18:30:34] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/Nether
+[18:30:34] [Server thread/INFO]: Saving chunks for level 'Copy of New World'/The End
+[18:30:36] [Client thread/INFO]: Stopping!

@@ -29,4 +29,8 @@
 <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="net.minecraft.item.ItemBlock"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.Entity"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.player.EntityPlayer"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.effect.EntityLightningBolt"/>
+<fullyQualifiedTypeName name="net.minecraftforge.fml.common.Loader"/>
 </qualifiedTypeNameHistroy>

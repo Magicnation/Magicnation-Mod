@@ -3,161 +3,20 @@
  http://mcp.ocean-labs.de/   
  Searge, ProfMobius, Fesh0r, 
  R4wk, ZeuX, IngisKahn, bspkrs
- MCP Data version : unknown
+ MCP Data version : snapshot_20141001
 ****************************
 :extractMcpData UP-TO-DATE
 :getVersionJson
-:extractUserDev
-:genSrgs
-:extractNatives
-:copyNativesLegacy
+:extractUserDev UP-TO-DATE
+:genSrgs SKIPPED
+:extractNatives UP-TO-DATE
 :getAssetsIndex
 :getAssets
-Current status: 1/686   0%
-Current status: 16/686   2%
-Current status: 26/686   3%
-Current status: 32/686   4%
-Current status: 36/686   5%
-Current status: 40/686   5%
-Current status: 42/686   6%
-Current status: 49/686   7%
-Current status: 55/686   8%
-Current status: 72/686   10%
-Current status: 89/686   12%
-Current status: 101/686   14%
-Current status: 108/686   15%
-Current status: 111/686   16%
-Current status: 120/686   17%
-Current status: 120/686   17%
-Current status: 121/686   17%
-Current status: 124/686   18%
-Current status: 124/686   18%
-Current status: 124/686   18%
-Current status: 124/686   18%
-Current status: 126/686   18%
-Current status: 132/686   19%
-Current status: 153/686   22%
-Current status: 167/686   24%
-Current status: 191/686   27%
-Current status: 217/686   31%
-Current status: 241/686   35%
-Current status: 258/686   37%
-Current status: 262/686   38%
-Current status: 265/686   38%
-Current status: 270/686   39%
-Current status: 281/686   40%
-Current status: 290/686   42%
-Current status: 297/686   43%
-Current status: 300/686   43%
-Current status: 304/686   44%
-Current status: 310/686   45%
-Current status: 315/686   45%
-Current status: 327/686   47%
-Current status: 331/686   48%
-Current status: 340/686   49%
-Current status: 357/686   52%
-Current status: 363/686   52%
-Current status: 371/686   54%
-Current status: 373/686   54%
-Current status: 373/686   54%
-Current status: 377/686   54%
-Current status: 384/686   55%
-Current status: 393/686   57%
-Current status: 401/686   58%
-Current status: 404/686   58%
-Current status: 407/686   59%
-Current status: 408/686   59%
-Current status: 411/686   59%
-Current status: 413/686   60%
-Current status: 416/686   60%
-Current status: 419/686   61%
-Current status: 420/686   61%
-Current status: 420/686   61%
-Current status: 420/686   61%
-Current status: 420/686   61%
-Current status: 420/686   61%
-Current status: 420/686   61%
-Current status: 420/686   61%
-Current status: 420/686   61%
-Current status: 420/686   61%
-Current status: 425/686   61%
-Current status: 431/686   62%
-Current status: 431/686   62%
-Current status: 431/686   62%
-Current status: 431/686   62%
-Current status: 431/686   62%
-Current status: 436/686   63%
-Current status: 439/686   63%
-Current status: 439/686   63%
-Current status: 439/686   63%
-Current status: 447/686   65%
-Current status: 452/686   65%
-Current status: 452/686   65%
-Current status: 452/686   65%
-Current status: 452/686   65%
-Current status: 452/686   65%
-Current status: 453/686   66%
-Current status: 461/686   67%
-Current status: 462/686   67%
-Current status: 462/686   67%
-Current status: 465/686   67%
-Current status: 471/686   68%
-Current status: 478/686   69%
-Current status: 481/686   70%
-Current status: 484/686   70%
-Current status: 489/686   71%
-Current status: 490/686   71%
-Current status: 497/686   72%
-Current status: 499/686   72%
-Current status: 499/686   72%
-Current status: 499/686   72%
-Current status: 509/686   74%
-Current status: 513/686   74%
-Current status: 516/686   75%
-Current status: 519/686   75%
-Current status: 521/686   75%
-Current status: 523/686   76%
-Current status: 528/686   76%
-Current status: 530/686   77%
-Current status: 531/686   77%
-Current status: 534/686   77%
-Current status: 538/686   78%
-Current status: 545/686   79%
-Current status: 548/686   79%
-Current status: 553/686   80%
-Current status: 556/686   81%
-Current status: 558/686   81%
-Current status: 562/686   81%
-Current status: 571/686   83%
-Current status: 581/686   84%
-Current status: 585/686   85%
-Current status: 593/686   86%
-Current status: 597/686   87%
-Current status: 603/686   87%
-Current status: 610/686   88%
-Current status: 617/686   89%
-Current status: 622/686   90%
-Current status: 628/686   91%
-Current status: 635/686   92%
-Current status: 638/686   93%
-Current status: 640/686   93%
-Current status: 644/686   93%
-Current status: 649/686   94%
-Current status: 650/686   94%
-Current status: 659/686   96%
-Current status: 664/686   96%
-Current status: 668/686   97%
-Current status: 677/686   98%
-Current status: 681/686   99%
-Current status: 683/686   99%
-Current status: 684/686   99%
-Current status: 686/686   100%
-Current status: 686/686   100%
 :makeStart
 :downloadMcpTools SKIPPED
 :downloadClient SKIPPED
-:downloadServer SKIPPED
-:mergeJars SKIPPED
+:downloadServer
+:mergeJars
 :deobfuscateJar
 Applying SpecialSource...
 Applying Exceptor...
@@ -176,10 +35,14 @@ Note: Recompile with -Xlint:unchecked for details.
 :repackMinecraft
 :setupDecompWorkspace
 :eclipseClasspath
+Download https://libraries.minecraft.net/java3d/vecmath/1.5.2/vecmath-1.5.2-sources.jar
+Download http://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6-sources.jar
+Download http://repo1.maven.org/maven2/io/netty/netty-all/4.0.15.Final/netty-all-4.0.15.Final-sources.jar
+Download https://libraries.minecraft.net/com/mojang/authlib/1.5.17/authlib-1.5.17-sources.jar
 :eclipseJdt
 :eclipseProject
 :eclipse
 
 BUILD SUCCESSFUL
 
-Total time: 9 mins 22.849 secs
+Total time: 18 mins 5.482 secs

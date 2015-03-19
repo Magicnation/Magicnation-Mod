@@ -2,15 +2,15 @@ package com.juanwan11_magicnation.blocks;
 
 import java.util.Random;
 
-import com.juanwan11_magicnation.BaseClass;
-import com.juanwan11_magicnation.ModInformation;
-import com.juanwan11_magicnation.Items.MAItems;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.item.Item;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+
+import com.juanwan11_magicnation.Items.MAItems;
 
 public class oreNetherGemStoneBlood extends Block {
 
@@ -18,7 +18,8 @@ public class oreNetherGemStoneBlood extends Block {
 		super(Material.rock);
 
 	}
-	public int getExpDrop(IBlockAccess world, int metadata, int fortune) {
+	public int getExpDrop(IBlockAccess world, int metadata, int fortune) 
+	{
 		return (int) 5;
 	}
 
@@ -29,7 +30,7 @@ public class oreNetherGemStoneBlood extends Block {
 
 	    public int quantityDropped(Random random)
 	    {
-	        return 1;
+	        return 2;
 	    }
 
 	    public int quantityDroppedWithBonus(int fortune, Random random)
@@ -50,4 +51,17 @@ public class oreNetherGemStoneBlood extends Block {
 	            return quantityDropped(random);
 	        }
 	    }
+	  
+	    @Override
+	    public void onBlockDestroyedByPlayer(World world, int x, int y, int z, int meta)
+	    {
+	    	Random rand = new Random();
+	    	
+	    	if(rand.nextInt(100) <= 10){
+	    		world.createExplosion((Entity)null, (double)x, (double)y, (double)z, 5f, true);
+	    		world.spawnEntityInWorld(new EntityLightningBolt(world,x,y,z));
+	    	
+	    	}
+	    }
+
 }
