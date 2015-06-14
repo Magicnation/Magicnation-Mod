@@ -1,0 +1,117 @@
+INFO  2015-06-14 14:24:04,116 (Saros.java:256) Starting Saros 13.12.6 running:
+  Java Version: 1.8.0_25
+  Java Vendor: Oracle Corporation
+  Eclipse Runtime Version: 3.10.0.v20140318-2214
+  Operating System: Windows 8 (6.2)
+  Hardware Architecture: amd64
+INFO  2015-06-14 14:24:04,148 (XMPPAccountStore.java:103) loaded 0 accounts
+INFO  2015-06-14 14:24:04,180 (PreferenceInitializer.java:53) initializing preference default values
+DEBUG 2015-06-14 14:24:04,189 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@62ade015, de.fu_berlin.inf.dpp.net.internal.IBBTransport@70ede57d]
+DEBUG 2015-06-14 14:24:04,260 (StreamServiceManager.java:225) StreamServices added:
+  SendFile
+  AudioService
+  VideoSharing
+DEBUG 2015-06-14 14:24:04,336 (SarosAnnotation.java:112) resetting annotation colors
+WARN  2015-06-14 14:24:08,471 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-14 14:24:08,565 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-06-14 14:24:38,142 (SharedDocumentProvider.java:79) SharedDocumentProvider created by Eclipse
+WARN  2015-06-14 14:24:50,405 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-14 14:24:50,465 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-06-14 14:24:56,546 (WhiteboardManager.java:108) WhiteboardManager instantiated
+DEBUG 2015-06-14 14:24:56,574 (DocumentRecord.java:93) Added Node: attr(143428109656975069) name=svg
+DEBUG 2015-06-14 14:25:28,055 (UPnPServiceImpl.java:225) performing gateways discovery
+INFO  2015-06-14 14:25:32,679 (UPnPServiceImpl.java:237) discovered 1 gateway(s)
+INFO  2015-06-14 14:25:58,135 (XMPPAccountStore.java:161) saved 1 accounts
+DEBUG 2015-06-14 14:26:00,125 (UPnPServiceImpl.java:225) performing gateways discovery
+DEBUG 2015-06-14 14:26:01,420 (SarosNet.java:423) started Socks5 proxy on port: 7777 [listening on all interfaces]
+INFO  2015-06-14 14:26:02,201 (XMPPAccountStore.java:161) saved 1 accounts
+DEBUG 2015-06-14 14:26:02,350 (SarosNet.java:433) found interface addresses: [169.254.207.181, 10.0.0.169, fe80:0:0:0:b1f0:e711:14f2:dbb1%eth9, fe80:0:0:0:e5fb:9905:5414:cfb5%eth13]
+DEBUG 2015-06-14 14:26:02,565 (SarosNet.java:383)  new connection state == CONNECTING
+INFO  2015-06-14 14:26:04,143 (UPnPServiceImpl.java:237) discovered 1 gateway(s)
+DEBUG 2015-06-14 14:26:04,144 (SarosNet.java:490) creating port mapping on device: VEGN2610 (Gateway) [7777|TCP]
+ERROR 2015-06-14 14:26:04,167 (UPnPServiceImpl.java:146) creating port mapping failed: port is already mapped by another application: null
+java.io.IOException: port is already mapped by another application: null
+	at de.fu_berlin.inf.dpp.net.upnp.internal.UPnPServiceImpl.createPortMapping(UPnPServiceImpl.java:102)
+	at de.fu_berlin.inf.dpp.net.SarosNet$4.run(SarosNet.java:494)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-06-14 14:26:04,170 (SarosNet.java:498) failed to create port mapping on device: VEGN2610 (Gateway) [7777|TCP]
+ERROR 2015-06-14 14:26:04,539 (SarosNet.java:385)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.Saros$2.run(Saros.java:600)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2015-06-14 14:26:04,701 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+DEBUG 2015-06-14 14:26:04,702 (UPnPServiceImpl.java:225) performing gateways discovery
+DEBUG 2015-06-14 14:26:04,707 (SarosNet.java:423) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2015-06-14 14:26:05,538 (SarosNet.java:433) found interface addresses: [169.254.207.181, 10.0.0.169, fe80:0:0:0:b1f0:e711:14f2:dbb1%eth9, fe80:0:0:0:e5fb:9905:5414:cfb5%eth13]
+DEBUG 2015-06-14 14:26:05,539 (SarosNet.java:383)  new connection state == CONNECTING
+ERROR 2015-06-14 14:26:06,559 (SarosNet.java:385)  new connection state == ERROR
+SASL authentication DIGEST-MD5 failed: not-authorized: 
+	at org.jivesoftware.smack.SASLAuthentication.authenticate(SASLAuthentication.java:342)
+	at org.jivesoftware.smack.XMPPConnection.login(XMPPConnection.java:243)
+	at de.fu_berlin.inf.dpp.net.SarosNet.connect(SarosNet.java:261)
+	at de.fu_berlin.inf.dpp.Saros.connect(Saros.java:660)
+	at de.fu_berlin.inf.dpp.ui.actions.ChangeXMPPAccountAction$6.run(ChangeXMPPAccountAction.java:195)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+INFO  2015-06-14 14:26:08,701 (UPnPServiceImpl.java:237) discovered 1 gateway(s)
+DEBUG 2015-06-14 14:26:08,701 (SarosNet.java:490) creating port mapping on device: VEGN2610 (Gateway) [7777|TCP]
+ERROR 2015-06-14 14:26:08,725 (UPnPServiceImpl.java:146) creating port mapping failed: port is already mapped by another application: null
+java.io.IOException: port is already mapped by another application: null
+	at de.fu_berlin.inf.dpp.net.upnp.internal.UPnPServiceImpl.createPortMapping(UPnPServiceImpl.java:102)
+	at de.fu_berlin.inf.dpp.net.SarosNet$4.run(SarosNet.java:494)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-06-14 14:26:08,726 (SarosNet.java:498) failed to create port mapping on device: VEGN2610 (Gateway) [7777|TCP]
+DEBUG 2015-06-14 14:26:08,727 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+WARN  2015-06-14 14:26:13,298 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /10.0.0.169:0
+WARN  2015-06-14 14:26:13,298 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /169.254.207.181:0
+WARN  2015-06-14 14:26:16,359 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /169.254.207.181:0
+WARN  2015-06-14 14:26:16,359 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /10.0.0.169:0
+INFO  2015-06-14 14:26:21,440 (XMPPAccountStore.java:161) saved 1 accounts
+DEBUG 2015-06-14 14:26:21,481 (UPnPServiceImpl.java:225) performing gateways discovery
+DEBUG 2015-06-14 14:26:21,486 (SarosNet.java:423) started Socks5 proxy on port: 7777 [listening on all interfaces]
+DEBUG 2015-06-14 14:26:22,294 (SarosNet.java:433) found interface addresses: [169.254.207.181, 10.0.0.169, fe80:0:0:0:b1f0:e711:14f2:dbb1%eth9, fe80:0:0:0:e5fb:9905:5414:cfb5%eth13]
+DEBUG 2015-06-14 14:26:22,295 (SarosNet.java:383)  new connection state == CONNECTING
+DEBUG 2015-06-14 14:26:23,723 (SarosNet.java:383) kotodama@saros-con.imp.fu-berlin.de/Saros new connection state == CONNECTED
+DEBUG 2015-06-14 14:26:23,724 (DataTransferManager.java:444) used transport order for the current XMPP connection: [de.fu_berlin.inf.dpp.net.internal.Socks5Transport@62ade015, de.fu_berlin.inf.dpp.net.internal.IBBTransport@70ede57d]
+DEBUG 2015-06-14 14:26:23,726 (SkypeManager.java:286) Refreshing Skype username cache...
+INFO  2015-06-14 14:26:25,494 (UPnPServiceImpl.java:237) discovered 1 gateway(s)
+DEBUG 2015-06-14 14:26:25,495 (SarosNet.java:490) creating port mapping on device: VEGN2610 (Gateway) [7777|TCP]
+ERROR 2015-06-14 14:26:25,520 (UPnPServiceImpl.java:146) creating port mapping failed: port is already mapped by another application: null
+java.io.IOException: port is already mapped by another application: null
+	at de.fu_berlin.inf.dpp.net.upnp.internal.UPnPServiceImpl.createPortMapping(UPnPServiceImpl.java:102)
+	at de.fu_berlin.inf.dpp.net.SarosNet$4.run(SarosNet.java:494)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+WARN  2015-06-14 14:26:25,522 (SarosNet.java:498) failed to create port mapping on device: VEGN2610 (Gateway) [7777|TCP]
+WARN  2015-06-14 14:26:33,118 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /169.254.207.181:0
+WARN  2015-06-14 14:26:33,118 (StunServiceImpl.java:420) received no response from STUN server stunserver.org/69.172.201.208:3478 at local address /10.0.0.169:0
+WARN  2015-06-14 14:56:03,386 (NullSarosSession.java:64) unexpected method call
+WARN  2015-06-14 14:56:03,389 (NullSarosSession.java:64) unexpected method call
+DEBUG 2015-06-14 14:56:03,819 (SarosNet.java:383) kotodama@saros-con.imp.fu-berlin.de/Saros new connection state == DISCONNECTING
+WARN  2015-06-14 14:56:03,821 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@6bc90642, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:289)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2015-06-14 14:56:03,980 (SarosNet.java:383)  new connection state == NOT_CONNECTED
+WARN  2015-06-14 14:56:03,981 (SWTUtils.java:144) could not execute runnable de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1$1@1b142585, UI thread is not available
+StackTrace:
+	at de.fu_berlin.inf.dpp.ui.util.SWTUtils.runSafeSWTAsync(SWTUtils.java:145)
+	at de.fu_berlin.inf.dpp.ui.widgets.ConnectionStateComposite$1.connectionStateChanged(ConnectionStateComposite.java:55)
+	at de.fu_berlin.inf.dpp.net.SarosNet.setConnectionState(SarosNet.java:390)
+	at de.fu_berlin.inf.dpp.net.SarosNet.disconnect(SarosNet.java:293)
+	at de.fu_berlin.inf.dpp.Saros$1.run(Saros.java:334)
+	at de.fu_berlin.inf.dpp.util.Utils$2.run(Utils.java:175)
+	at java.lang.Thread.run(Unknown Source)
+DEBUG 2015-06-14 14:56:03,983 (UPnPServiceImpl.java:295) deleting existing port mappings

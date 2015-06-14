@@ -16,15 +16,12 @@ public class MAItems {
 	public static Item itemGemStoneBloodPickaxe;
 	public static Item itemGemStoneBloodSword;
 	
-	public static Item itemPyramidGen;
-	
 	public static void makeItems() {
 		itemShardGemBlood = new itemShardGemBlood().setUnlocalizedName(ModInformation.modid + "_" + "itemShardGemBlood").setTextureName(ModInformation.modid + ":" + "itemShardGemBlood").setCreativeTab(BaseClass.magicnationTab).setMaxStackSize(32);
 		itemGemStoneBlood = new itemGemStoneBlood().setUnlocalizedName(ModInformation.modid + "_" + "itemGemStoneBlood").setTextureName(ModInformation.modid + ":" + "itemGemStoneBlood").setCreativeTab(BaseClass.magicnationTab).setMaxStackSize(16);
 		itemGemStoneBloodPickaxe = new itemGemStoneBloodPickaxe(ToolMaterial.EMERALD).setUnlocalizedName(ModInformation.modid + "_" + "itemGemStoneBloodPickaxe").setTextureName(ModInformation.modid + ":" + "itemGemStoneBloodPickaxe").setCreativeTab(BaseClass.magicnationTab).setMaxStackSize(1);
 		itemGemStoneBloodSword = new itemGemStoneBloodSword(ToolMaterial.EMERALD).setUnlocalizedName(ModInformation.modid + "_" + "itemGemStoneBloodSword").setTextureName(ModInformation.modid + ":" + "itemGemStoneBloodSword").setCreativeTab(BaseClass.magicnationTab).setMaxStackSize(1);
 
-		itemPyramidGen = new itemPyramidGen().setUnlocalizedName(ModInformation.modid + "_" + "itemPyramidGen").setTextureName(ModInformation.modid + ":" + "itemPyramidGen").setCreativeTab(BaseClass.magicnationTab).setMaxStackSize(1);
 		
 	};
 
@@ -34,8 +31,6 @@ public class MAItems {
 		GameRegistry.registerItem(itemGemStoneBloodPickaxe, "itemGemStoneBloodPickaxe");
 		GameRegistry.registerItem(itemGemStoneBloodSword, "itemGemStoneBloodSword");
 		
-		GameRegistry.registerItem(itemPyramidGen, "itemPyramidGen");
-
 	};
 
 }

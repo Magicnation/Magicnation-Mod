@@ -2,7 +2,7 @@
 {
   "modid": "juanwan11_magicnation",
   "name": "Magicnation",
-  "description": "This is a mod about magic",
+  "description": "This is a RPG Mod",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

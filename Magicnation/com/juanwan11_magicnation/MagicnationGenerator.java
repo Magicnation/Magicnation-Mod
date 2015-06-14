@@ -2,15 +2,14 @@ package com.juanwan11_magicnation;
 
 import java.util.Random;
 
-import com.juanwan11_magicnation.blocks.MABlocks;
-import com.juanwan11_magicnation.structures.WorldGenStarterStructure;
-
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
 import net.minecraft.world.World;
-import net.minecraft.world.WorldSavedData;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.feature.WorldGenMinable;
+
+import com.juanwan11_magicnation.blocks.MABlocks;
+
 import cpw.mods.fml.common.IWorldGenerator;
 
 
